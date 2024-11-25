@@ -75,19 +75,19 @@ label.pack(pady = 15)
 top = tk.Frame(canvas, bg="black")
 top.pack(padx = 10, pady = 5, anchor="center")
 
-prevButton = tk.Button(canvas, text="Prev", image= prev_img, bg="black", borderwidth = 0, command= play_prev)
+prevButton = tk.Button(canvas, text="Prev", image= prev_img, bg="black", borderwidth = 5, command= play_prev)
 prevButton.pack(pady = 15, in_ = top, side = "left")
 
-stopButton = tk.Button(canvas, text="Stop", image= stop_img, bg="black", borderwidth = 0, command= stop)
+stopButton = tk.Button(canvas, text="Stop", image= stop_img, bg="black", borderwidth = 5, command= stop)
 stopButton.pack(pady = 15, in_ = top, side = "right")
 
-playButton = tk.Button(canvas, text="Play", image= play_img, bg="black", borderwidth = 0, command= select )
+playButton = tk.Button(canvas, text="Play", image= play_img, bg="black", borderwidth = 5, command= select )
 playButton.pack(pady = 15, in_ = top, side = "right")
 
-pauseButton = tk.Button(canvas, text="Pause", image= pause_img, bg="black", borderwidth = 0, command= pause_song)
+pauseButton = tk.Button(canvas, text="Pause", image= pause_img, bg="black", borderwidth = 5, command= pause_song)
 pauseButton.pack(pady = 15, in_ = top, side = "right")
 
-nextButton = tk.Button(canvas, text="Next", image= next_img, bg="black", borderwidth = 0, command= play_next)
+nextButton = tk.Button(canvas, text="Next", image= next_img, bg="black", borderwidth = 10, command= play_next)
 nextButton.pack(pady = 15, in_ = top, side = "right")
 
 for root, dirs, files in os.walk(rootpath):
