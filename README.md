@@ -1,5 +1,5 @@
 # media-player
-# Video-URL: https://youtu.be/xZOGP5XqH-8
+### Video-demo: https://youtu.be/xZOGP5XqH-8
 # Introduction
 **IMPORTANT**
 for making the media-player work for your personal device, the only thing that you need to do is change the rootpath to your music-folder adress, like this: rootpath= "your music-folder adress"
