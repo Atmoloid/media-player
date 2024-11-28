@@ -67,3 +67,5 @@ def select():
    * It constructs the complete file path for the selected song by combining the rootpath and the selected filename.
    * It uses the mixer.music.load function to load the selected song into the Pygame mixer.
    * Finally, it calls mixer.music.play to start playing the loaded song.
+
+CS50 was a long journey in which I learned to improove my personal skilss and also learned new useful skills and in the end I can say that it was really worth to use my time to learn on CS50
