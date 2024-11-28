@@ -68,4 +68,4 @@ def select():
    * It uses the mixer.music.load function to load the selected song into the Pygame mixer.
    * Finally, it calls mixer.music.play to start playing the loaded song.
 
-CS50 was a long journey in which I learned to improove my personal skilss and also learned new useful skills and in the end I can say that it was really worth to use my time to learn on CS50
+CS50 was a long journey in which I learned to improve my personal skills and also learned new useful skills like problem-solving, critical thinking, and programming languages. In the end, I can say that it was truly worthwhile to invest my time in learning on CS50. The knowledge and skills I gained will undoubtedly benefit me in my future endeavors.
