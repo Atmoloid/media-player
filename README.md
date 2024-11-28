@@ -1,8 +1,8 @@
 # media-player
-
+# Video-URL: https://youtu.be/xZOGP5XqH-8
 # Introduction
-**IMPORTANT***
- P.S for making the media-player work for your personal device, the only thing that you need to do is change the rootpath to your music-folder adress, like this: rootpath= "your music-folder adress"
+**IMPORTANT**
+for making the media-player work for your personal device, the only thing that you need to do is change the rootpath to your music-folder adress, like this: rootpath= "your music-folder adress"
  
 This Python-based media player offers a user-friendly interface and robust audio playback capabilities. Built using Tkinter for the graphical user interface (GUI) and Pygame's Mixer for audio handling, this project provides a comprehensive solution for music enthusiasts and developers alike.
 For this project i've used Tkinter and Pygame.Tkinter is the Python's standard UI library very useful for building an intuitive user experience. Meanwhile, Pygame's Mixer module takes charge of the audio backend, handling tasks such as loading audio files, controlling playback, and providing essential audio metadata.When the player is launched, it will interact with your personal music in your music folder.
